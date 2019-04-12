@@ -1,0 +1,31 @@
+li{
+  font-size: 20pt;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: rgb(200,200,200);
+  height:50px;
+  margin: 30px;
+  text-align: center;
+  padding-top:10px;
+  padding-left: 40px;
+  /*background-color: #505050;*/
+  background-color:#5287C4;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,.4);
+  overflow-x: hidden;
+}
+li i{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+li i:hover{
+  color:rgba(0,0,0,.5);
+}
+li:hover{
+  transition: .3s;
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,.4);
+  transform: scale(1.05);
+}
+.comp{
+  background-color: #505050;
+}

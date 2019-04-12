@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import Todo from './Todo';
+import NewTodo from './NewTodo';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>ToDo App</h1>
-      </div>
+      <body>
+        <NewTodo />
+        <div id="list">
+          <ul id = "items">
+            <Todo />
+          </ul>
+        </div>
+      </body>
     );
   }
 }
