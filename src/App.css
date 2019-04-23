@@ -32,3 +32,11 @@ ul{
   margin-top: 50px;
 
 }
+#sort{
+  position:fixed;
+  top:50px;
+  left:50px;
+}
+#sort:hover{
+  color:#5287C4;
+}

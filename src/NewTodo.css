@@ -1,4 +1,6 @@
-input::placeholder{
+<i class="far fa-list-alt"></i>
+
+sortinput::placeholder{
   color:rgb(200,200,200);
   font-weight:400;
   font-size: 20pt;
